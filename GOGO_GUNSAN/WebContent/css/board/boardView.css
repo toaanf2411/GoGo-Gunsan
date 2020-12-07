@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+.contents-main-container{
+	width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 15%;
+}
+.sub-contents-inner {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding-bottom: 100px;
+    display: block;
+    color: rgb(102, 102, 102);
+	text-align: center;
+}
+.board-inner{
+	width: 100%;
+    max-width: 1050px;
+    text-align: center;
+    padding-right: 15%;
+ 
+}
+/*제목*/
+#title-element{
+	margin-top: 40px;
+	width: 100%;
+    max-width: 800px;
+
+}
+
+.board-list-element{
+	
+
+    width: 100%;
+    max-width: 800px;
+    font-size: 12px;
+    text-shadow: 1px 1px 0px #fff;
+    background: #feffff;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.board-view-element{
+	overflow: hidden;
+    margin-top: 20px;
+}
+
+.board-view-subject{
+	font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    padding-bottom: 5px;
+     float:left;
+   
+}
+
+.board-view-top {
+	border-top: 2px solid #333;
+    padding: 5px 30px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.baord-writer-date{
+	font-size: 12px;
+    color: #333;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.board-file{
+    color: #333;
+    padding-bottom: 5px;
+    float: left;
+   	border-bottom: 1px solid #ddd;
+   	width:100%;
+   	padding-left: 30px;		
+}
+
+.board-file table{
+	   	font-size:12px;
+}
+
+/*내용*/
+.board-view-body {
+    overflow: hidden;
+    
+ 
+}
+
+.board-content {
+    padding: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+	
+}
+
+
+.board-view-footer {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 25px 30px;
+    overflow: hidden;
+}
+
+
+
+
+.board-view-back{
+	border-top: 1px solid #333;
+	padding: 5px 10px;
+}
+
+#boardView{
+	padding-top:30px;
+	padding-bottom: 100px;
+}
+
+#boardButton{
+	margin: 0 650px;
+}
+
+
+/*게시글 수정하기*/
+span#fname {
+	position: absolute;
+	left: 92px;
+	top: 9px;
+	width: 200px;
+	background: #f5f5f5;
+}
+
+#delFile+label {
+	font-size: .8em;
+	position: relative;
+	top: -3px;
+}
+
+/*댓글 제출 버튼*/
+div.comment-container #btn-insert {
+	text-align: center;
+	width: 60px;
+	height: 50px;
+	background-color: #ee8342;
+	color: white;
+	position: relative;
+	top: -20px;
+}
+
+/*댓글테이블*/
+table#tbl-comment {
+	width: 700px;
+	border-collapse: collapse;
+}
+
+table#tbl-comment tr td {
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	padding: 5px;
+	text-align: left;
+	line-height: 120%;
+}
+
+table#tbl-comment tr td:first-of-type {
+	padding: 5px 5px 5px 50px;
+}
+
+table#tbl-comment tr td:last-of-type {
+	text-align: right;
+	width: 100px;
+}
+
+table#tbl-comment button.btn-reply {
+	display: none;
+}
+
+table#tbl-comment tr:hover {
+	background: lightgray;
+}
+
+table#tbl-comment tr:hover button.btn-reply {
+	display: inline;
+}
+
+table#tbl-comment sub.comment-writer {
+	color: navy;
+	font-size: 14px
+}
+
+table#tbl-comment sub.comment-date {
+	color: tomato;
+	font-size: 10px
+}
+
+table#tbl-comment tr.level2 {
+	color: gray;
+	font-size: 14px;
+}
+
+table#tbl-comment tr.level2 td:first-of-type {
+	padding-left: 100px;
+}
+
+table#tbl-comment tr.level2 sub.comment-writer {
+	color: #8e8eff;
+	font-size: 14px
+}
+
+table#tbl-comment tr.level2 sub.comment-date {
+	color: #ff9c8a;
+	font-size: 10px
+}
+
+/*답글관련*/
+table#tbl-comment textarea {
+	margin: 4px 0 0 0;
+}
+
+table#tbl-comment button.btn-insert2 {
+	width: 60px;
+	height: 23px;
+	color: white;
+	background: #3300ff;
+	position: relative;
+	top: -5px;
+	left: 10px;
+}
+
+/* 삭제버튼관련 */
+table#tbl-comment button.btn-delete {
+	background: red;
+	color: white;
+	display: none;
+}
+
+table#tbl-comment tr:hover button.btn-delete {
+	display: inline;
+}
+
+.comment-container{
+text-align: center;
+}
+
+
+

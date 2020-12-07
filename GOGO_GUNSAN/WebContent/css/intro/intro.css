@@ -1,0 +1,110 @@
+.intro-container {
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.card {
+	height: 200px;
+	width: 200px;
+	border-radius: .3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 10px;
+}
+
+#caption {
+	height: 45%;
+	font-size: .7rem;
+    text-align: left;
+    padding-left: 10px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#pic-container {
+	border-top-right-radius: .3rem;
+	border-top-left-radius: .3rem;
+	height: 70%;
+	object-fit: contain;
+	object-fit: cover;
+	background: rgb(43, 41, 41);
+	display: flex;
+	align-items: flex-end;
+}
+
+#pic-container img{
+	height: 122px;
+    width: 100%;
+	
+}
+
+#title {
+	margin-left: 10px;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 1rem;
+}
+
+#description {
+	color: #424242;
+	float: left;
+	font-weight: 700;
+	font-size: 1.3em;
+	display: flex;
+	margin-left: 20px;
+	margin-right: 45px;
+	margin-top: 10px;
+	margin-bottom:5px;
+}
+
+.shadow-2dp {
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px
+		rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+/*버튼*/
+.description-info{
+	margin-top: 5px;
+	height: 100%;
+	display: inline-block;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.description-info i{
+	padding-bottom: 5px;
+	color: #959595;
+	text-color: #959595;
+	margin-right: 5px;
+}
+
+/*메뉴바*/
+#topMenu {           
+        height: 30px; 
+        width: 850px;
+        margin-left: 20px;
+}
+#topMenu ul li {                       
+        list-style: none;          
+        background-color: #ebebeb;  
+        float: left;                
+        line-height: 30px;         
+        vertical-align: middle;  
+        text-align: center;       
+}
+#topMenu .menuLink {                         
+        text-decoration:none;                      
+        color: #463e3e;                              
+        display: block;                           
+        width: 120px;
+        padding: 10px;                          
+        font-size: 12px;                  
+        font-weight: bold;                        
+        font-family: "Trebuchet MS", Dotum, Arial; 
+}
+#topMenu .menuLink:hover {                            
+        background-color: #ee8342;    
+}

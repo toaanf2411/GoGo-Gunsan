@@ -1,0 +1,95 @@
+#boardForm {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+#tbl-board-view, #tbl-board-content {
+	width: 50%;
+	font-size: 12px;
+	background: #feffff;
+	border-radius: 3px;
+	margin: 30px auto;
+	box-shadow: 0 1px 2px #d1d1d1;
+	border-collapse: collapse;
+}
+
+#tbl-board-content, #tbl-board-view th {
+	padding: 15px;
+}
+
+#tbl-board-content th:first-child {
+	padding-left: 20px;
+}
+
+#tbl-board-content tr:first-child th:first-child {
+	border-top-left-radius: 3px;
+}
+
+#tbl-board-content tr:first-child th:last-child {
+	border-top-right-radius: 3px;
+}
+
+#tbl-board-content tr {
+	text-align: center;
+	padding-left: 20px;
+}
+
+#title {
+	font-size: 20px;
+	text-align: left;
+	background: #19222a;
+	color:white;
+	padding: 15px;
+}
+
+#tbl-board-content tr td:first-child {
+	padding-left: 20px;
+	border-left: 0;
+}
+
+#tbl-board-content tr:first-child td {
+	color: white;
+	padding: 12px;
+}
+
+#tbl-board-content tr td {
+	border-left: 2px solid silver;
+	/* border:solid black; */
+	padding: 12px;
+}
+
+#tbl-board-content tr:nth-child(2) {
+	margin: 20px;
+}
+
+#tbl-board-content tr.even td {
+	background: #f6f6f6;
+}
+
+#tbl-board-content tr:last-child td {
+	border-bottom: 0;
+}
+
+#tbl-board-content tr:last-child td:first-child {
+	border-bottom-left-radius: 3px;
+}
+
+#tbl-board-content tr:last-child td:last-child {
+	border-bottom-right-radius: 3px;
+}
+
+#tbl-board-content {
+	width: 80%;
+}
+
+#tbl-board-content th {
+	background: rgb(243, 243, 243);
+}
+
+#tbl-board-content tr {
+	border-bottom: 2px solid rgb(200, 200, 200);
+}
+
+#tbl-board-content td {
+	text-align: left;
+}

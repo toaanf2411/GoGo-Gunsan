@@ -1,0 +1,72 @@
+/*헤더 바*/
+#topMenu {           
+        height: 30px; 
+        width: 850px;
+        margin-left: 20px;
+}
+#topMenu ul li {                       
+        list-style: none;          
+        background-color: #ebebeb;  
+        float: left;                
+        line-height: 30px;         
+        vertical-align: middle;  
+        text-align: center;       
+}
+#topMenu .menuLink {                         
+        text-decoration:none;                      
+        color: #463e3e;                              
+        display: block;                           
+        width: 120px;
+        padding: 10px;                          
+        font-size: 12px;                  
+        font-weight: bold;                        
+        font-family: "Trebuchet MS", Dotum, Arial; 
+}
+#topMenu .menuLink:hover {                            
+        background-color: #ee8342;    
+}
+
+
+.basicView {border-top:2px solid #80838a;overflow:hidden;}
+.basicView .titleField {padding:15px;border-bottom:1px solid #cfced3;}
+.basicView .titleField h4 {font-size:1.4em;padding-bottom:15px;color:#666;font-family:'NanumGothic','나눔고딕';}
+.basicView .titleField ul li {background-repeat:no-repeat;background-position:0 5px;padding-left:27px;line-height:27px;}
+.basicView .titleField ul li strong {font-weight:normal;padding-right:10px;}
+.basicView .conField ul li {border-bottom:1px solid #cfced3;clear:both;overflow:hidden;padding:10px 15px;line-height:28px;}
+.basicView .conField ul li > span {float:left;width:15%;background:url('../../images/ntour/images/board/de_line.gif') 100% 50% no-repeat;font-weight:bold;}
+.basicView .conField ul li > p {float:right;width:83%;}
+.basicView .conField .attach {display:block;}
+.basicView .conField .attach a.file {background:url('/images/board/ico_file.gif') no-repeat 0 0;padding-left:25px;}
+.basicView .conField .attach a.preview{display:inline-block;margin-left:5px;border:1px solid #cfced3;font-size:0.95em;border-radius:5px;padding:0 10px;}
+.basicView .conText {padding:30px;border-bottom:1px solid #cfced3;}
+
+ div.board {width:100%;}
+ div.board .viewImg {position:relative;width:100%;height:500px;overflow:hidden;margin-bottom:30px;}
+div.board .viewImg ul > li  {height:500px;list-style: none;}
+div.board .viewImg ul > li > img {width:100%;height:100%;}
+div.board .viewImg .rollCtrl {position:absolute;right:0;bottom:0;}
+	/* 상세 -기본정보 */
+div.board .viewField h4 {margin-bottom:20px;font-size:1.5em;font-family:'NanumGothic','나눔고딕';}
+div.board .viewField h5, div.board .viewField li, div.board .viewField p {font-family:'NanumGothic','나눔고딕';}
+div.board .viewField .fieldBasic {border-top:2px solid #82828a;}
+div.board .viewField .fieldBasic ul:after {clear:both;}
+div.board .viewField .fieldBasic ul {display:table;width:100%;border-collapse:collapse;margin-bottom:20px;margin-top: 0;}
+div.board .viewField .fieldBasic ul li {float:left;width:50%;padding:15px 20px 15px 50px;background-repeat:no-repeat;background-position:20px 14px;display:table-cell;border:1px solid #dadada;border-width:0 1px 1px 0;box-sizing:border-box;border-left:0;}
+div.board .viewField .fieldBasic ul li:first-child {border-left:1px solid #dadada;} 
+div.board .viewField .fieldBasic ul li:nth-child(odd) {border-left:1px solid #dadada;} 
+.fieldBasic p {display: inline-block; margin-left: 20px;}
+	/* 상세 -데이터입력 */
+div.board .conText {line-height:1.6;color:#666;padding-bottom:30px;}
+div.board .conText p {font-family:'NanumGothic','나눔고딕';}
+
+
+/*테이블*/
+div.basic{overflow:hidden; padding:5px 0 }
+div.basic table.conTable {width:100%;border-spacing:0;border-collapse:collapse;border-top:1px solid #5e5e5e;table-layout:fixed;}
+div.basic table.conTable thead th {background-color:#f6f6f6;color:#353535;font-weight:bold;text-align:center;padding:13px 0;border:1px solid #cecece;;}
+div.basic table.conTable tbody th {text-align:center;border:1px solid #cecece;font-weight:bold;border-top:0;}
+div.basic table.conTable tbody td {padding:10px;text-align:center;border:1px solid #cecece; border-top:0;}
+
+i.fas.fa-check {
+    margin-right: 10px;
+}

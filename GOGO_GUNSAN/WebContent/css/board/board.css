@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+div#pageBar span{
+	padding-right: 5px;
+    padding-left: 5px;
+}	
+	
+
+
+#board-container{
+	width: 100%;
+    max-width: 1050px;
+    text-align: center;
+    padding-right: 15%;
+    
+
+}
+table#tbl-list {
+	width: 100%;
+    font-size: 12px;
+    text-shadow: 1px 1px 0px #fff;
+    background: #feffff;
+    margin: 0 auto;
+    border-spacing: unset;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table#tbl-list th {
+	padding: 15px;
+	background: #fff;
+	/* border-bottom: 2px solid black; */
+}
+
+table#tbl-list th:first-child {
+	padding-left: 20px;
+}
+
+table#tbl-list tr:first-child th:first-child {
+	border-top-left-radius: 3px;
+}
+
+table#tbl-list tr:first-child th:last-child {
+	border-top-right-radius: 3px;
+}
+
+table#tbl-list tr {
+	border-bottom: 3px solid rgb(138, 138, 138);
+	text-align: center;
+	padding-left: 20px;
+}
+
+table#tbl-list tr td:first-child {
+	padding-left: 20px;
+	border-left: 0;
+}
+
+#tbl-th-list th{
+	border-top: 1px solid black ;
+	border-bottom: 2px solid #333;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 25px 10px;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+
+table#tbl-list tr td {
+	padding: 12px;
+}
+
+table#tbl-list tr.even td {
+	background: #f6f6f6;
+}
+
+table#tbl-list tr:last-child td {
+	border-bottom: 0;
+}
+
+table#tbl-list tr:last-child td:first-child {
+	border-bottom-left-radius: 3px;
+}
+
+table#tbl-list tr:last-child td:last-child {
+	border-bottom-right-radius: 3px;
+}
+
+table#tbl-list tr:hover td {
+	background: #f2f2f2;
+}
+
+#board-no {
+	width: 9%;
+}
+
+#board-title {
+	width: 35%;
+}
+#board-file {
+	width: 8%;
+}
+#board-writer {
+	width: 10%;
+}
+
+#board-date {
+	width: 12%;
+}
+
+#board-readCount {
+	width: 8%;
+}
+
+table tr:nth-child(2) {
+	border-bottom: 3px solid rgb(138, 138, 138);
+	padding: 12px;
+}
+
+table#tbl-list a {
+	text-decoration: none;
+}
+
+table#tbl-list a:link {
+	color: red;
+	text-decoration: none;
+}
+
+table#tbl-list a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+table#tbl-list a:hover {
+	color: blue;
+	text-decoration: underline;
+}

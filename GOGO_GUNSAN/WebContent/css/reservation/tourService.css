@@ -1,0 +1,61 @@
+
+h1 {
+  font-weight: 700;
+  color: white;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: white;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+strong {
+  color: #f1c11a;
+  font-weight: 700;
+}
+
+
+
+/* home section */
+#home {
+  height: 100vh;
+  color: #ffffff;
+}
+
+#home .home-thumb {
+
+  text-align: center;
+
+}
+
+#home .btn {
+    background: transparent;
+    border: 3px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 14px 36px;
+    margin-top: 42px;
+    margin-right: 16px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#home .btn:hover {
+  background: #f1c11a;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+#home .btn-success {
+    background: #ffffff;
+    color: #242424;
+    border-color: transparent;
+}
+

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*{
+	
+}
+.submenu_container{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
+.sub_menu {
+    width: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.item {
+    border-top: 1px solid #c2cfff;
+    overflow: hidden;
+}
+
+.btn {
+    display: block;
+    padding: 16px 20px;
+    background: rgb(18, 86, 175);
+    color: white;
+    position: relative;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: rgb(18, 86, 175);
+    left: 20px;
+    bottom: -7px;
+    transform: rotate(45deg);
+}
+
+.btn i {
+    margin-right: 10px;
+    color:white;
+}
+
+.smenu {
+    background: #333;
+    overflow: hidden;
+    transition: max-height 0.3s;
+    max-height: 0;
+}
+
+.smenu a {
+    display: block;
+    padding: 16px 26px;
+    color: white;
+    margin: 4px 0;
+    position: relative;
+}
+
+.smenu a::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #4c72fc;
+    left: 0;
+    top: 0;
+    transition: .3s;
+    opacity: 0;
+}
+
+.smenu a:hover::before {
+    opacity: 1;
+}
+
+.item:target .smenu {
+   max-height: fit-content;
+}
+
+
+
+/*페이지 레이아웃*/
+
+.gunsan-page-title{
+	width: 100%;
+	height: 20%;
+	margin: 0 auto;
+    position: relative;
+}
+
+.gunsan-wrapper {
+	margin-bottom: 8%;
+    position: relative;
+    left: 0;
+    margin-left: 25%;
+    margin-top: 4%;
+    width:100%;
+
+}
